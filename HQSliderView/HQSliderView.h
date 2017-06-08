@@ -7,16 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class HQSliderView;
-
-@protocol HQSliderViewDelegate <NSObject>
-
-- (void)sliderView:(HQSliderView *)sliderView didClickMenuButton:(UIButton *)button;
-
-@end
 
 @interface HQSliderView : UIView
-
-@property (nonatomic, weak) id <HQSliderViewDelegate> delegate;
 
 @end
